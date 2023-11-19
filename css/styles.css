@@ -40,7 +40,7 @@ img {
     overflow: hidden;
 }
 .container {
-    display: flex;
+    
     width: 1158px;
     margin: 0;
     padding: 0 15px;
@@ -63,7 +63,9 @@ img {
 .logo-half {
     color:  #2e2f42;
 }
-
+.header-container {
+display: flex;
+}
 
 .page-header {
         justify-content: center;
@@ -329,7 +331,6 @@ color: var(--SLATE, #434455);
         margin-bottom: 16px;
 }
 .logo-half-footer {
-    display: inline-block;
     color: #f4f4fd;
     font-family: "Raleway", sans-serif;
         font-size: 18px;
