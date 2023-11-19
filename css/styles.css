@@ -27,6 +27,18 @@ ul, ol {
 img {
     display: block;
 }
+.visually-hidden {
+    position:absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .container {
     display: flex;
     width: 1158px;
@@ -169,9 +181,6 @@ padding: 188px 0;
 .section-two-container {
 padding: 120px 0;
 }
-.header-two {
-    visibility: hidden;
-}
 .section-two-list {
     display: flex;
         align-items: flex-start;
@@ -227,8 +236,6 @@ padding: 120px 0;
 }
 .team {
     color: var(--NAVY-BLUE, #2E2F42);
-        text-align: center;
-    
         /* Header 3 */
         font-family: Roboto,
             serif;
@@ -241,8 +248,6 @@ padding: 120px 0;
 }
 .team-work {
     color: var(--SLATE, #434455);
-        text-align: center;
-    
         /* Body */
         font-family: Roboto,
             serif;
@@ -312,6 +317,7 @@ color: var(--SLATE, #434455);
     padding: 100px 0;
 }
 .logo-footer {
+    display: inline-block;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
         font-size: 18px;
@@ -319,7 +325,6 @@ color: var(--SLATE, #434455);
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        display: inline-block;
         margin-bottom: 16px;
 }
 .logo-half-footer {
@@ -330,7 +335,6 @@ color: var(--SLATE, #434455);
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        display: inline-block;
 }
 
 .footer-text {
