@@ -329,7 +329,7 @@ color: var(--SLATE, #434455);
         margin-bottom: 16px;
 }
 .logo-half-footer {
-    display: flex;
+    display: inline-block;
     color: #f4f4fd;
     font-family: "Raleway", sans-serif;
         font-size: 18px;
