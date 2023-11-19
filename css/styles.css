@@ -309,6 +309,7 @@ color: var(--SLATE, #434455);
 }
 .footer-one {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 .logo-footer {
     color: #4d5ae5;
@@ -318,6 +319,8 @@ color: var(--SLATE, #434455);
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 .logo-half-footer {
     color: #f4f4fd;
@@ -339,6 +342,7 @@ color: #F4F4FD;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
 
