@@ -80,7 +80,6 @@ img {
         
 }
 .main-nav {
-    display: flex;
     align-items: center;
 }
 .menu-item {
