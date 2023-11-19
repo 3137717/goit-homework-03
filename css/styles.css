@@ -80,6 +80,7 @@ img {
         
 }
 .main-nav {
+    display: flex;
     align-items: center;
 }
 .menu-item {
@@ -317,6 +318,7 @@ color: var(--SLATE, #434455);
     padding: 100px 0;
 }
 .logo-footer {
+    display: flex;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
         font-size: 18px;
