@@ -64,6 +64,7 @@ img {
 }
 .header-container {
 display: flex;
+height: 72px;
 }
 
 .page-header {
@@ -100,6 +101,9 @@ display: flex;
 display: inline-flex;
     align-items: flex-start;
     gap: 40px;
+    padding-left: 250px;
+    padding-top: 23px;
+    justify-content: flex-end;
 }
 .address-list-item {
     color: var(--SLATE, #434455);
@@ -133,15 +137,17 @@ padding: 188px 0;
 }
 .header-one {
         /* Header 1 */
-        font-family: Roboto,
-            serif;
-        font-size: 56px;
-        font-weight: bold;
-        line-height: 1.07;
-        text-align: center;
-        letter-spacing: 0.02em;
-        color: #FFF;
-        max-width: 496px;
+color: var(--WHITE, #FFF);
+    text-align: center;
+
+    /* Header 1 */
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    /* 107.143% */
+    letter-spacing: 0.02em;
 
 }
 .button {
@@ -152,11 +158,16 @@ padding: 188px 0;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    display: block;
     min-width: 169px;
     height: 56px;
     border: none;
     border-radius: 4px;
+    justify-content: center;
+    display: inline-flex;
+        padding: 16px 32px;
+        align-items: flex-start;
+        gap: 10px;
+        margin: 32px 32px;
 }
 .button:hover,
 .button:focus {
